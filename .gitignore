@@ -22,47 +22,24 @@
 Homestead.json
 Homestead.yaml
 Thumbs.db
-npm-debug.log
-yarn-error.log
 
 
-# IDE / Editor files
-.idea
-.vscode
+
+# --------------------
+# IDE / Editor
+# --------------------
+.idea/
+.vscode/
+.fleet/
+.zed/
+.nova/
 *.sublime-project
 *.sublime-workspace
+.phpactor.json
 
-# OS generated files
-.DS_Store
-Thumbs.db
 
-# Logs
-storage/logs/*.log
-
-# Cache
-bootstrap/cache/*.php
-
+# --------------------
 # Testing
-phpunit.xml
+# --------------------
 tests/_output
 tests/_support/_generated
-
-# Misc
-composer.lock  # optional – agar team nahi hai to ignore kar sakte ho
-
-# Local development tools
-.phpactor.json
-.phpunit.result.cache
-.phpcs.xml
-.phpmd.xml
-rector.php
-
-# Temporary files
-*.bak
-*.tmp
-*.swp
-*~
-
-# Deployment tools
-.deployignore
-.env.example
